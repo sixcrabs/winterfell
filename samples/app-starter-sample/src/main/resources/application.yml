@@ -1,0 +1,73 @@
+#spring:
+#  application:
+#    name: sample-app
+#  config:
+#    activate:
+#      on-profile: local
+
+server:
+  port: 8000
+
+spring:
+  application:
+    name: sample-app
+  profiles:
+    active: local
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+# app-starter 相关配置
+application:
+  jackson:
+    local-date-format: YY年MM月dd日
+    local-time-format: HH:mm:ss
+  # openapi(包含 knife4j 相关配置)
+  openapi:
+    info:
+      title: 'Sample Api'
+      description: '**示例接口描述** 更多详细用法请参考具体配置项'
+      terms-of-service: '服务条款：1.2.3.4... https://stackoverflow.com/'
+      contact:
+        name: 'Alex'
+      version: '1.0.0'
+    setting:
+      language: zh_cn
+      enable-version: true
+    basic:
+      enabled: false
+      username: demo
+      password: ENC(Q92RIwgsWV251xKnvKqCEvxGmDFe291Z) #Demo@1234
+    cors: true
+  #  定制请求相应code msg 等
+  resp:
+    success-code: 200
+    success-msg: 'ok'
+
+# springdoc-openapi项目配置
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+  api-docs:
+    path: /v3/api-docs
+    enabled: true
+  #  paths-to-exclude: /mrc/** # 排除 也可以对单个接口采用 hidden = true
+  packages-to-exclude: com.example.internal
+#  group-configs:
+#    - group: 'default'
+#      paths-to-match: '/**'
+#      packages-to-scan: com.xiaominfo.knife4j.demo.web
+
+mrc:
+  show-url: true
+  rate-limiter:
+    enabled: true
+    timeout-duration: 10s
+  retry:
+    enabled: true
+    max-attempts: 5
+    wait-duration: 10s
+  circuit-breaker:
+    enabled: true
+    failure-rate-threshold: 50

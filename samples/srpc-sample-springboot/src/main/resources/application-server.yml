@@ -1,0 +1,9 @@
+server:
+  port: 9300
+
+srpc:
+  server:
+    port: 5555
+    access-token: YNKM45sMDafV
+    core-pool-size: 4
+    max-pool-size: 16

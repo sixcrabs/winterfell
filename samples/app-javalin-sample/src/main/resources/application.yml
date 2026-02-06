@@ -1,0 +1,16 @@
+
+javalin:
+  server:
+    port: 8088
+  application:
+    name: sample-javalin-main
+  openapi:
+    info:
+      title: javalin示例应用API
+      version: v1.0
+      description: 描述xxxxxxx
+      contact:
+        name: Alex
+        email: alexgis@yeah.net
+    ignorePaths:
+      - /routes

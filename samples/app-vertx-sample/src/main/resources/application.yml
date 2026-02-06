@@ -1,0 +1,12 @@
+vertx:
+  application:
+    name: my-zoo-app
+  server:
+    port: 8765
+    instances: 1
+  event-loop-pool-size: 16
+  work-pool-size: 20
+
+zoo:
+  animal: Lion
+  instances: 2

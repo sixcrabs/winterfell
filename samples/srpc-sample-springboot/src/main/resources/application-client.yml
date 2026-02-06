@@ -1,0 +1,12 @@
+server:
+  port: 9309
+swagger:
+  authorization:
+    auth-regex: ^/admin/*$
+---
+srpc:
+  providers:
+    - address: 127.0.0.1:5555 # 127.0.0.1:5678 #
+      access-token: YNKM45sMDafV
+      request-timeout: 600000
+  nacos-server-addr: 127.0.0.1:8088

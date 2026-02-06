@@ -1,0 +1,32 @@
+server:
+  port: 8085
+spring:
+  #数据库
+  datasource:
+    url: jdbc:mysql://119.3.213.144:8306/jimureport?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: root@mysql_119
+    driver-class-name: com.mysql.cj.jdbc.Driver
+jeecg :
+  # local|minio|alioss
+  uploadType: local
+  # local
+  path :
+    #文件路径
+    upload: /Users/alex/Data/opt/upload
+  # alioss
+  oss:
+    endpoint: ??
+    accessKey: ??
+    secretKey: ??
+    bucketName: jimureport
+  # minio
+  minio:
+    minio_url: http://minio.jeecg.com
+    minio_name: ??
+    minio_pass: ??
+    bucketName: ??
+#输出sql日志
+logging:
+  level:
+    org.jeecg.modules.jmreport : info

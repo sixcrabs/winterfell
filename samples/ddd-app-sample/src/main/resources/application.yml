@@ -1,0 +1,59 @@
+
+spring:
+  application:
+    name: spring-ddd-demo
+server:
+  port: 8400
+
+# 数据库配置
+sorm:
+  data-sources:
+    default:
+      url: jdbc:h2:/Users/alex/Data/swap/ddd_demo;AUTO_SERVER=true;CASE_INSENSITIVE_IDENTIFIERS=TRUE
+      username: sa
+      password:
+      driver-class-name: org.h2.Driver
+  settings:
+    ddl-auto: create_if_not_exist
+    show-sql: true
+    entity-packages: org.winterfell.sample.ddd.infrastructure.persistence.po
+    dev-mode: true
+
+# app-starter 相关配置
+application:
+  jackson:
+    local-date-format: YY年MM月dd日
+    local-time-format: HH:mm:ss
+  # openapi(包含 knife4j 相关配置)
+  openapi:
+    info:
+      title: 'Spring DDD Sample Api'
+      description: '**示例接口描述** 更多详细用法请参考具体配置项'
+      terms-of-service: '服务条款：1.2.3.4... https://stackoverflow.com/'
+      version: '1.0.0'
+    setting:
+      language: zh_cn
+      enable-version: true
+#    basic:
+#      enabled: true
+#      username: demo
+#      password: Demo@1234
+    cors: true
+  #  定制请求相应code msg 等
+  resp:
+    success-code: 200
+    success-msg: 'ok'
+
+# 外部接口调用
+mrc:
+  show-url: true
+  rate-limiter:
+    enabled: true
+    timeout-duration: 10s
+  retry:
+    enabled: true
+    max-attempts: 5
+    wait-duration: 10s
+  circuit-breaker:
+    enabled: true
+    failure-rate-threshold: 50

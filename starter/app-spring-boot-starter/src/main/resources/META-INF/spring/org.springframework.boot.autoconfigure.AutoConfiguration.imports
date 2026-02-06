@@ -1,0 +1,2 @@
+org.winterfell.shared.as.config.AppAutoConfiguration
+org.winterfell.shared.as.openapi.OpenApiAutoConfiguration
