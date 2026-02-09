@@ -35,6 +35,32 @@
         <jackson.version>2.11.2</jackson.version>
     </properties>
 
+    <name>${project.artifactId}</name>
+    <description>Java Components</description>
+    <url>https://github.com/sixcrabs/winterfell</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Alex</name>
+            <email>parselife@gmail.com</email>
+            <roles>
+                <role>Project Manager</role>
+                <role>Architect</role>
+            </roles>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git://github.com/sixcrabs/winterfell.git</connection>
+        <developerConnection>scm:git:ssh://github.com/sixcrabs/winterfell.git</developerConnection>
+        <url>https://github.com/sixcrabs/winterfell</url>
+    </scm>
+
     <!--    <distributionManagement>-->
     <!--        <repository>-->
     <!--            <id>repo-v</id>-->
@@ -364,7 +390,7 @@
     <profiles>
 
         <profile>
-            <id>deploy-sixcrabs</id>
+            <id>deploy-central</id>
             <build>
                 <plugins>
                     <!--   central发布插件    -->

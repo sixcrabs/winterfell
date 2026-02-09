@@ -9,8 +9,36 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>io.github.sixcrabs</groupId>
     <artifactId>app-spring-boot-starter</artifactId>
-    <version>1.5.0-SNAPSHOT</version>
+    <version>1.5.0</version>
+    <packaging>jar</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>Spring Boot Starter for Winterfell App</description>
+    <url>https://github.com/sixcrabs/winterfell</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Alex</name>
+            <email>parselife@gmail.com</email>
+            <roles>
+                <role>Project Manager</role>
+                <role>Architect</role>
+            </roles>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git://github.com/sixcrabs/winterfell.git</connection>
+        <developerConnection>scm:git:ssh://github.com/sixcrabs/winterfell.git</developerConnection>
+        <url>https://github.com/sixcrabs/winterfell</url>
+    </scm>
 
     <properties>
         <jackson.version>2.13.5</jackson.version>
@@ -36,21 +64,23 @@
             <version>1.8.0</version>
         </dependency>
 
-
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
+            <version>33.2.1-jre</version>
         </dependency>
 
         <!--限流实现-->
         <dependency>
             <groupId>com.alibaba.csp</groupId>
             <artifactId>sentinel-core</artifactId>
+            <version>1.8.6</version>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
+            <version>2.7.18</version>
             <optional>true</optional>
         </dependency>
 
@@ -58,11 +88,13 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
+            <version>2.7.18</version>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.7.18</version>
         </dependency>
 
         <!--用于spring配置项加密-->
@@ -87,16 +119,19 @@
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
             <artifactId>jackson-datatype-jsr310</artifactId>
+            <version>2.13.5</version>
         </dependency>
 
         <dependency>
             <groupId>jakarta.validation</groupId>
             <artifactId>jakarta.validation-api</artifactId>
+            <version>2.0.2</version>
         </dependency>
 
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
             <optional>true</optional>
         </dependency>
 

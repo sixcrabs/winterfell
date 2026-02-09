@@ -53,7 +53,6 @@ public class ServiceExecutor<T, U, R> {
      * 执行方法
      *
      * @return
-     * @throws Exception
      */
     public R execute() throws RuntimeException {
         if (meta == null) {
