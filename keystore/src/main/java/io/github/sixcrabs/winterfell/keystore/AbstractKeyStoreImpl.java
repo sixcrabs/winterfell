@@ -1,7 +1,8 @@
 package io.github.sixcrabs.winterfell.keystore;
 
-import org.winterfell.misc.timer.TimerManager;
-import org.winterfell.misc.timer.TimerTask;
+
+import io.github.sixcrabs.winterfell.timer.TimerManager;
+import io.github.sixcrabs.winterfell.timer.TimerTask;
 import io.github.sixcrabs.winterfell.timer.job.TimerJobs;
 
 import java.time.Duration;
