@@ -2,6 +2,10 @@ package org.winterfell.misc.zinc.action.es.search.query;
 
 import com.google.common.collect.Lists;
 import com.google.gson.JsonObject;
+import io.github.sixcrabs.winterfell.zinc.action.es.search.query.BoolQuery;
+import io.github.sixcrabs.winterfell.zinc.action.es.search.query.MatchQuery;
+import io.github.sixcrabs.winterfell.zinc.action.es.search.query.RangeQuery;
+import io.github.sixcrabs.winterfell.zinc.action.es.search.query.TermQuery;
 import org.junit.jupiter.api.Test;
 
 /**

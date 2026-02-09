@@ -1,7 +1,6 @@
 package org.winterfell.samples.starter.controller;
 
-import org.apache.commons.lang3.RandomUtils;
-import org.winterfell.misc.hutool.mini.RandomUtil;
+import io.github.sixcrabs.winterfell.mini.RandomUtil;
 import org.winterfell.samples.starter.domain.Person;
 import org.winterfell.samples.starter.ex.MyException;
 import org.winterfell.samples.starter.service.DemoService;

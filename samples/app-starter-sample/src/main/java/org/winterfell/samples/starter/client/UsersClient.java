@@ -1,7 +1,7 @@
 package org.winterfell.samples.starter.client;
 
-import org.winterfell.misc.remote.mrc.MrClient;
-import org.winterfell.misc.remote.mrc.support.MrClientCircuitBreakerParam;
+import io.github.sixcrabs.winterfell.remote.mrc.MrClient;
+import io.github.sixcrabs.winterfell.remote.mrc.support.MrClientCircuitBreakerParam;
 import retrofit2.http.GET;
 import retrofit2.http.Path;
 

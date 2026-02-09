@@ -1,6 +1,6 @@
 package org.winterfell.starter.javalin.plugin;
 
-import org.winterfell.misc.hutool.mini.ClassUtil;
+import io.github.sixcrabs.winterfell.mini.ClassUtil;
 import org.winterfell.starter.javalin.annotation.JavalinComponent;
 import org.winterfell.starter.javalin.annotation.JavalinProperties;
 import org.winterfell.starter.javalin.annotation.RequestController;

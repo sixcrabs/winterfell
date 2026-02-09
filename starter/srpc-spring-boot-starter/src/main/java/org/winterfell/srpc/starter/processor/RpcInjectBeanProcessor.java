@@ -2,12 +2,12 @@ package org.winterfell.srpc.starter.processor;
 
 import org.winterfell.misc.hutool.mini.MapUtil;
 import org.winterfell.misc.hutool.mini.StringUtil;
-import org.winterfell.misc.srpc.RpcException;
+import io.github.sixcrabs.winterfell.remote.rpc.RpcException;
 import org.winterfell.srpc.starter.config.SrpcProperties;
 import org.winterfell.srpc.starter.support.NacosNamingService;
 import org.winterfell.srpc.starter.support.RpcInstanceMetadataKeys;
 import com.alibaba.nacos.api.naming.pojo.Instance;
-import org.winterfell.misc.srpc.RpcConsumerFactory;
+import io.github.sixcrabs.winterfell.remote.rpc.RpcConsumerFactory;
 import org.winterfell.srpc.starter.annotation.RpcInject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

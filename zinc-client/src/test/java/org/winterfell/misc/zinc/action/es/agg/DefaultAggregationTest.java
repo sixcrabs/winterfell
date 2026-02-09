@@ -1,8 +1,10 @@
 package org.winterfell.misc.zinc.action.es.agg;
 
-import org.winterfell.misc.zinc.action.es.search.Search;
-import org.winterfell.misc.zinc.action.es.search.query.MatchAllQuery;
-import org.winterfell.misc.zinc.support.GsonUtil;
+import io.github.sixcrabs.winterfell.zinc.action.es.agg.AggType;
+import io.github.sixcrabs.winterfell.zinc.action.es.agg.DefaultAggregation;
+import io.github.sixcrabs.winterfell.zinc.action.es.search.Search;
+import io.github.sixcrabs.winterfell.zinc.action.es.search.query.MatchAllQuery;
+import io.github.sixcrabs.winterfell.zinc.support.GsonUtil;
 import com.google.gson.JsonElement;
 import org.junit.jupiter.api.Test;
 

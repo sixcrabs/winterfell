@@ -1,6 +1,6 @@
 package org.winterfell.samples.srpc.frameless.provider;
 
-import org.winterfell.misc.hutool.mini.RandomUtil;
+import io.github.sixcrabs.winterfell.mini.RandomUtil;
 import org.winterfell.samples.srpc.api.PersonDTO;
 import org.winterfell.samples.srpc.api.PersonService;
 

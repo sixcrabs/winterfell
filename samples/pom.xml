@@ -10,7 +10,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>samples-parent</artifactId>
+    <artifactId>wf-samples-parent</artifactId>
     <packaging>pom</packaging>
 
     <modules>

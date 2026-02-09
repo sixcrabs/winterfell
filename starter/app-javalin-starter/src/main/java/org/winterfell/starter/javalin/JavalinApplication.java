@@ -1,7 +1,7 @@
 package org.winterfell.starter.javalin;
 
-import org.winterfell.misc.hutool.mini.ClassUtil;
-import org.winterfell.misc.hutool.mini.ReflectUtil;
+import io.github.sixcrabs.winterfell.mini.ClassUtil;
+import io.github.sixcrabs.winterfell.mini.ReflectUtil;
 import org.winterfell.starter.javalin.annotation.JavalinComponentScan;
 import org.winterfell.starter.javalin.annotation.RequestController;
 import org.winterfell.starter.javalin.annotation.RequestMapping;

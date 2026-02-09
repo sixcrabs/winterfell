@@ -1,6 +1,6 @@
 package org.winterfell.samples.starter;
 
-import org.winterfell.misc.remote.mrc.EnableMrClients;
+import io.github.sixcrabs.winterfell.remote.mrc.EnableMrClients;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

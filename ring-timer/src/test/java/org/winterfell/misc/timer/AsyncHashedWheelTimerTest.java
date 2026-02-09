@@ -1,6 +1,8 @@
 package org.winterfell.misc.timer;
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
+import io.github.sixcrabs.winterfell.timer.AsyncHashedWheelTimer;
+import io.github.sixcrabs.winterfell.timer.Timer;
 import org.junit.Assert;
 import org.junit.Test;
 

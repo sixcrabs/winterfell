@@ -1,6 +1,6 @@
 package org.winterfell.samples.starter.client;
 
-import org.winterfell.misc.remote.mrc.interceptor.MrcInterceptor;
+import io.github.sixcrabs.winterfell.remote.mrc.interceptor.MrcInterceptor;
 import okhttp3.Interceptor;
 import okhttp3.Response;
 

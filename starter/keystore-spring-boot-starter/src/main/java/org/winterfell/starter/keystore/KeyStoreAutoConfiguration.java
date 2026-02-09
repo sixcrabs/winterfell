@@ -4,9 +4,9 @@ import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.core.annotation.Order;
-import org.winterfell.misc.keystore.KeyStoreProperties;
-import org.winterfell.misc.keystore.SimpleKeyStore;
-import org.winterfell.misc.keystore.SimpleKeyStoreFactory;
+import io.github.sixcrabs.winterfell.keystore.KeyStoreProperties;
+import io.github.sixcrabs.winterfell.keystore.SimpleKeyStore;
+import io.github.sixcrabs.winterfell.keystore.SimpleKeyStoreFactory;
 
 /**
  * <p>

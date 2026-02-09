@@ -1,6 +1,6 @@
 package org.winterfell.samples.starter.client;
 
-import org.winterfell.misc.remote.mrc.MrClient;
+import io.github.sixcrabs.winterfell.remote.mrc.MrClient;
 import org.winterfell.samples.starter.client.domain.MrcTestDTO;
 import retrofit2.http.GET;
 import retrofit2.http.Path;

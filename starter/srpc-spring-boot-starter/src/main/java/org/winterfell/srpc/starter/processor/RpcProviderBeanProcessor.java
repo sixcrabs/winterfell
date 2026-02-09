@@ -1,9 +1,9 @@
 package org.winterfell.srpc.starter.processor;
 
-import org.winterfell.misc.srpc.AsyncResultHandler;
-import org.winterfell.misc.srpc.RpcException;
+import io.github.sixcrabs.winterfell.remote.rpc.AsyncResultHandler;
+import io.github.sixcrabs.winterfell.remote.rpc.RpcException;
 import org.winterfell.srpc.starter.config.SrpcProperties;
-import org.winterfell.misc.srpc.RpcProviderFactory;
+import io.github.sixcrabs.winterfell.remote.rpc.RpcProviderFactory;
 import org.winterfell.srpc.starter.annotation.RpcProvider;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.DisposableBean;

@@ -2,8 +2,8 @@ package org.winterfell.samples.srpc.frameless.provider;
 
 
 import org.winterfell.samples.srpc.api.PersonService;
-import org.winterfell.misc.srpc.AsyncResultHandler;
-import org.winterfell.misc.srpc.RpcProviderFactory;
+import io.github.sixcrabs.winterfell.remote.rpc.AsyncResultHandler;
+import io.github.sixcrabs.winterfell.remote.rpc.RpcProviderFactory;
 
 /**
  * RPC server

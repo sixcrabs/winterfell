@@ -1,5 +1,9 @@
 package org.winterfell.misc.keystore;
 
+import io.github.sixcrabs.winterfell.keystore.KeyStoreProperties;
+import io.github.sixcrabs.winterfell.keystore.MvStoreKeyStoreImpl;
+import io.github.sixcrabs.winterfell.keystore.SimpleKeyStore;
+import io.github.sixcrabs.winterfell.keystore.SimpleKeyStoreFactory;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.winterfell.misc.hutool.mini.RandomUtil;

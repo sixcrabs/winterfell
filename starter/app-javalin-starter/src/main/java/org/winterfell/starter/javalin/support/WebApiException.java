@@ -1,6 +1,6 @@
 package org.winterfell.starter.javalin.support;
 
-import org.winterfell.misc.hutool.mini.StringUtil;
+import io.github.sixcrabs.winterfell.mini.StringUtil;
 
 /**
  * <p>

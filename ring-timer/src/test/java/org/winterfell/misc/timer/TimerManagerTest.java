@@ -1,7 +1,8 @@
 package org.winterfell.misc.timer;
 
-import org.winterfell.misc.timer.cron.DateTimeUtil;
-import org.winterfell.misc.timer.job.TimerJobs;
+import io.github.sixcrabs.winterfell.timer.TimerManager;
+import io.github.sixcrabs.winterfell.timer.cron.DateTimeUtil;
+import io.github.sixcrabs.winterfell.timer.job.TimerJobs;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -1,11 +1,11 @@
 package org.winterfell.starter.javalin.support;
 
 //import cn.hutool.core.bean.BeanUtil;
-import org.winterfell.misc.hutool.mini.BeanUtil;
-import org.winterfell.misc.hutool.mini.ClassUtil;
-import org.winterfell.misc.hutool.mini.ReflectUtil;
-import org.winterfell.misc.hutool.mini.StringUtil;
-import org.winterfell.misc.hutool.mini.io.Resource;
+import io.github.sixcrabs.winterfell.mini.BeanUtil;
+import io.github.sixcrabs.winterfell.mini.ClassUtil;
+import io.github.sixcrabs.winterfell.mini.ReflectUtil;
+import io.github.sixcrabs.winterfell.mini.StringUtil;
+import io.github.sixcrabs.winterfell.mini.io.Resource;
 import org.winterfell.starter.javalin.JavalinAppConfig;
 import org.winterfell.starter.javalin.annotation.JavalinProperties;
 import org.slf4j.Logger;

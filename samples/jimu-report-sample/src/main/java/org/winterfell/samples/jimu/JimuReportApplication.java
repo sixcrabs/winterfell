@@ -1,6 +1,7 @@
 package org.winterfell.samples.jimu;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
@@ -15,8 +16,7 @@ import org.springframework.core.env.Environment;
  * @author Alex
  * @version v1.0 2023/5/10
  */
-@SpringBootApplication
-@EnableAutoConfiguration(exclude={MongoAutoConfiguration.class})
+@SpringBootApplication(exclude={MongoAutoConfiguration.class})
 public class JimuReportApplication {
 
     public static void main(String[] args) {

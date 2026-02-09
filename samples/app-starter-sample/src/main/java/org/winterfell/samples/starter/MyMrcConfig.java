@@ -1,7 +1,7 @@
 package org.winterfell.samples.starter;
 
-import org.winterfell.misc.remote.mrc.autoconfigure.MrClientConfigBuilderCustomizer;
-import org.winterfell.misc.remote.mrc.autoconfigure.MrClientInterceptorConfigurer;
+import io.github.sixcrabs.winterfell.remote.mrc.autoconfigure.MrClientConfigBuilderCustomizer;
+import io.github.sixcrabs.winterfell.remote.mrc.autoconfigure.MrClientInterceptorConfigurer;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
 import okhttp3.Response;
@@ -44,6 +44,6 @@ public class MyMrcConfig implements MrClientInterceptorConfigurer, MrClientConfi
      */
     @Override
     public void customize(OkHttpClient.Builder builder) {
-        
+
     }
 }

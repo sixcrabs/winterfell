@@ -1,5 +1,7 @@
 package org.winterfell.misc.keystore;
 
+import io.github.sixcrabs.winterfell.keystore.SimpleKeyStore;
+
 /**
  * <p>
  * .
