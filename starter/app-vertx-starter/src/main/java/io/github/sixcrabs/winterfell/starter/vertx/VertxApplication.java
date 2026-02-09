@@ -1,8 +1,8 @@
 package io.github.sixcrabs.winterfell.starter.vertx;
 
-import org.winterfell.misc.hutool.mini.ClassUtil;
-import org.winterfell.misc.hutool.mini.MapUtil;
-import org.winterfell.misc.hutool.mini.StringUtil;
+import io.github.sixcrabs.winterfell.mini.ClassUtil;
+import io.github.sixcrabs.winterfell.mini.MapUtil;
+import io.github.sixcrabs.winterfell.mini.StringUtil;
 import io.github.sixcrabs.winterfell.starter.vertx.annotation.VertxBootApplication;
 import io.github.sixcrabs.winterfell.starter.vertx.annotation.VertxComponent;
 import io.github.sixcrabs.winterfell.starter.vertx.annotation.VertxConfigurationProperties;
