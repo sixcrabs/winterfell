@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author Alex
  * @version v1.0 2024/11/18
  */
-@SpringBootApplication(scanBasePackages = "org.winterfell")
+@SpringBootApplication
 @EnableMrClients(basePackages = "org.winterfell.samples.starter.client")
 public class SampleApplication {
 
