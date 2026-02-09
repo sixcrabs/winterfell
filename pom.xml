@@ -10,9 +10,17 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>miscellaneous</module>
+        <module>ring-timer</module>
+        <module>event-manager</module>
+        <module>mrc</module>
+        <module>rpc</module>
+        <module>hutool-mini</module>
+        <module>zinc-client</module>
+        <module>keystore</module>
+        <module>oss-client</module>
+        <module>indigo</module>
         <module>starter</module>
-        <module>samples</module>
+<!--        <module>samples</module>-->
     </modules>
 
     <properties>
