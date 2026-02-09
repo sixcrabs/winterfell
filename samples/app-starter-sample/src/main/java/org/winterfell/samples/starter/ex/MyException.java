@@ -1,6 +1,6 @@
 package org.winterfell.samples.starter.ex;
 
-import org.winterfell.shared.as.advice.ex.ErrorAdvice;
+import io.github.sixcrabs.winterfell.starter.as.advice.ex.ErrorAdvice;
 
 /**
  * <p>

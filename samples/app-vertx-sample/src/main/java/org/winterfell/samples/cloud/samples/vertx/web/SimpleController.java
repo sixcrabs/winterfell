@@ -2,10 +2,10 @@ package org.winterfell.samples.cloud.samples.vertx.web;
 
 import org.winterfell.misc.hutool.mini.MapUtil;
 import org.winterfell.samples.cloud.samples.vertx.service.ZooService;
-import org.winterfell.vertx.boot.web.AbstractVertxRoute;
-import org.winterfell.vertx.boot.web.RequestMethod;
-import org.winterfell.vertx.boot.annotation.VertxHttpRequest;
-import org.winterfell.vertx.boot.annotation.VertxRoute;
+import io.github.sixcrabs.winterfell.starter.vertx.web.AbstractVertxRoute;
+import io.github.sixcrabs.winterfell.starter.vertx.web.RequestMethod;
+import io.github.sixcrabs.winterfell.starter.vertx.annotation.VertxHttpRequest;
+import io.github.sixcrabs.winterfell.starter.vertx.annotation.VertxRoute;
 import com.google.inject.Inject;
 import io.vertx.ext.web.RoutingContext;
 

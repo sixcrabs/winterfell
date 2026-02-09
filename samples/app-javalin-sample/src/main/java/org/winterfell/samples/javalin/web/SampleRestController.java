@@ -2,9 +2,9 @@ package org.winterfell.samples.javalin.web;
 
 import org.winterfell.samples.javalin.domain.Person;
 import org.winterfell.samples.javalin.service.SampleService;
-import org.winterfell.starter.javalin.annotation.RequestController;
-import org.winterfell.starter.javalin.annotation.RequestMapping;
-import org.winterfell.starter.javalin.support.Resp;
+import io.github.sixcrabs.winterfell.starter.javalin.annotation.RequestController;
+import io.github.sixcrabs.winterfell.starter.javalin.annotation.RequestMapping;
+import io.github.sixcrabs.winterfell.starter.javalin.support.Resp;
 import com.google.inject.Inject;
 import io.javalin.http.Context;
 import io.javalin.http.HandlerType;

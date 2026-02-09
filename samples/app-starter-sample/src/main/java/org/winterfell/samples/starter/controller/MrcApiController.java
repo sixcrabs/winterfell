@@ -2,8 +2,8 @@ package org.winterfell.samples.starter.controller;
 
 import org.winterfell.samples.starter.client.TodosClient;
 import org.winterfell.samples.starter.client.UsersClient;
-import org.winterfell.shared.as.advice.EnableRespAdvice;
-import org.winterfell.shared.as.advice.ex.WebApiException;
+import io.github.sixcrabs.winterfell.starter.as.advice.EnableRespAdvice;
+import io.github.sixcrabs.winterfell.starter.as.advice.ex.WebApiException;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.security.SecurityRequirements;

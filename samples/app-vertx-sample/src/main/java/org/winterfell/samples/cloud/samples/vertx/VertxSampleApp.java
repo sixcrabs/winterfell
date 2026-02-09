@@ -1,8 +1,8 @@
 package org.winterfell.samples.cloud.samples.vertx;
 
 import org.winterfell.samples.cloud.samples.vertx.config.ZooConfig;
-import org.winterfell.vertx.boot.VertxApplication;
-import org.winterfell.vertx.boot.annotation.VertxBootApplication;
+import io.github.sixcrabs.winterfell.starter.vertx.VertxApplication;
+import io.github.sixcrabs.winterfell.starter.vertx.annotation.VertxBootApplication;
 
 /**
  * <p>

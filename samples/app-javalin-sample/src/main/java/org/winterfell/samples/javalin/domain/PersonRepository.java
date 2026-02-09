@@ -1,6 +1,6 @@
 package org.winterfell.samples.javalin.domain;
 
-import org.winterfell.starter.javalin.annotation.JavalinComponent;
+import io.github.sixcrabs.winterfell.starter.javalin.annotation.JavalinComponent;
 
 import java.util.Collection;
 import java.util.HashMap;

@@ -3,7 +3,7 @@ package org.winterfell.samples.srpc.springboot.server;
 import org.winterfell.misc.hutool.mini.RandomUtil;
 import org.winterfell.samples.srpc.api.PersonDTO;
 import org.winterfell.samples.srpc.api.PersonService;
-import org.winterfell.srpc.starter.annotation.RpcProvider;
+import io.github.sixcrabs.winterfell.starter.rpc.annotation.RpcProvider;
 
 /**
  * <p>

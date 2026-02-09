@@ -2,7 +2,7 @@ package org.winterfell.samples.javalin.service;
 
 import org.winterfell.samples.javalin.domain.Person;
 import org.winterfell.samples.javalin.domain.PersonRepository;
-import org.winterfell.starter.javalin.annotation.JavalinComponent;
+import io.github.sixcrabs.winterfell.starter.javalin.annotation.JavalinComponent;
 import com.google.inject.Inject;
 
 import java.util.ArrayList;

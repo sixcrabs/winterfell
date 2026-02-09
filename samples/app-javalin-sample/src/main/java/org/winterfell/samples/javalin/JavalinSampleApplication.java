@@ -1,7 +1,7 @@
 package org.winterfell.samples.javalin;
 
-import org.winterfell.starter.javalin.JavalinApplication;
-import org.winterfell.starter.javalin.annotation.JavalinComponentScan;
+import io.github.sixcrabs.winterfell.starter.javalin.JavalinApplication;
+import io.github.sixcrabs.winterfell.starter.javalin.annotation.JavalinComponentScan;
 
 /**
  * <p>

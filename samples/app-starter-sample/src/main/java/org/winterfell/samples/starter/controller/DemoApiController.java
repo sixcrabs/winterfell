@@ -4,11 +4,11 @@ import io.github.sixcrabs.winterfell.mini.RandomUtil;
 import org.winterfell.samples.starter.domain.Person;
 import org.winterfell.samples.starter.ex.MyException;
 import org.winterfell.samples.starter.service.DemoService;
-import org.winterfell.shared.as.advice.RespAdviceExclude;
-import org.winterfell.shared.as.advice.EnableRespAdvice;
-import org.winterfell.shared.as.advice.response.Response;
-import org.winterfell.shared.as.advice.ex.WebApiException;
-import org.winterfell.shared.as.security.aop.MethodLogger;
+import io.github.sixcrabs.winterfell.starter.as.advice.RespAdviceExclude;
+import io.github.sixcrabs.winterfell.starter.as.advice.EnableRespAdvice;
+import io.github.sixcrabs.winterfell.starter.as.advice.response.Response;
+import io.github.sixcrabs.winterfell.starter.as.advice.ex.WebApiException;
+import io.github.sixcrabs.winterfell.starter.as.security.aop.MethodLogger;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.MediaType;
@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.winterfell.shared.as.service.ServiceBiFunction;
-import org.winterfell.shared.as.service.ServiceManager;
+import io.github.sixcrabs.winterfell.starter.as.service.ServiceBiFunction;
+import io.github.sixcrabs.winterfell.starter.as.service.ServiceManager;
 
 import java.util.Random;
 

@@ -1,8 +1,8 @@
 package org.winterfell.samples.starter.domain;
 
-import org.winterfell.shared.as.advice.RespAdviceExclude;
-import org.winterfell.shared.as.security.sensitive.Sensitive;
-import org.winterfell.shared.as.security.sensitive.SensitiveType;
+import io.github.sixcrabs.winterfell.starter.as.advice.RespAdviceExclude;
+import io.github.sixcrabs.winterfell.starter.as.security.sensitive.Sensitive;
+import io.github.sixcrabs.winterfell.starter.as.security.sensitive.SensitiveType;
 import io.swagger.v3.oas.annotations.media.Schema;
 
 import java.io.Serializable;

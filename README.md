@@ -25,4 +25,4 @@ java 通用后端组件库
 
 ## 用法 
 
-参考: https://cat-eat-bat.github.io/vjpress/
+参考: https://sixcrabs.github.io/vjpress/

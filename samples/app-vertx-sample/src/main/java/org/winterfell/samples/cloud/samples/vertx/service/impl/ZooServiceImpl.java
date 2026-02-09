@@ -3,7 +3,7 @@ package org.winterfell.samples.cloud.samples.vertx.service.impl;
 
 import org.winterfell.samples.cloud.samples.vertx.config.ZooConfig;
 import org.winterfell.samples.cloud.samples.vertx.service.ZooService;
-import org.winterfell.vertx.boot.annotation.VertxComponent;
+import io.github.sixcrabs.winterfell.starter.vertx.annotation.VertxComponent;
 import com.google.inject.Inject;
 
 import java.io.Serializable;

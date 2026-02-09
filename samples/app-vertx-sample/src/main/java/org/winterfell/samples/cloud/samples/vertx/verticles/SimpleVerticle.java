@@ -6,7 +6,7 @@ import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Vertx;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.winterfell.vertx.boot.VertxApplication;
+import io.github.sixcrabs.winterfell.starter.vertx.VertxApplication;
 
 /**
  * <p>

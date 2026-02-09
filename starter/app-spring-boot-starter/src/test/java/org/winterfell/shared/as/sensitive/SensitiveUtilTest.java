@@ -1,7 +1,7 @@
 package org.winterfell.shared.as.sensitive;
 
-import org.winterfell.shared.as.security.sensitive.SensitiveType;
-import org.winterfell.shared.as.security.sensitive.SensitiveUtil;
+import io.github.sixcrabs.winterfell.starter.as.security.sensitive.SensitiveType;
+import io.github.sixcrabs.winterfell.starter.as.security.sensitive.SensitiveUtil;
 import org.junit.jupiter.api.Test;
 
 import java.util.regex.Matcher;

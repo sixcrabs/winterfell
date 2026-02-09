@@ -1,6 +1,6 @@
 package org.winterfell.samples.cloud.samples.vertx.config;
 
-import org.winterfell.vertx.boot.annotation.VertxConfigurationProperties;
+import io.github.sixcrabs.winterfell.starter.vertx.annotation.VertxConfigurationProperties;
 
 /**
  * <p>

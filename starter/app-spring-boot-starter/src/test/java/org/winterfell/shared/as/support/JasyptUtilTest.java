@@ -1,8 +1,7 @@
 package org.winterfell.shared.as.support;
 
+import io.github.sixcrabs.winterfell.starter.as.support.JasyptUtil;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * <p>

@@ -1,8 +1,7 @@
 package org.winterfell.shared.as.security.ratelimit;
 
+import io.github.sixcrabs.winterfell.starter.as.security.ratelimit.LocalRateLimiter;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * <p>

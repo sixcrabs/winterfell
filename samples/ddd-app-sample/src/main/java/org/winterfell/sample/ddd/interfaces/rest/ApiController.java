@@ -5,7 +5,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.winterfell.sample.ddd.application.service.UserBizService;
-import org.winterfell.shared.as.advice.EnableRespAdvice;
+import io.github.sixcrabs.winterfell.starter.as.advice.EnableRespAdvice;
 
 /**
  * <p>

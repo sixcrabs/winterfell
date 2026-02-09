@@ -1,7 +1,7 @@
 package org.winterfell.samples.srpc.springboot.client;
 
 import org.winterfell.samples.srpc.api.PersonService;
-import org.winterfell.srpc.starter.annotation.RpcInject;
+import io.github.sixcrabs.winterfell.starter.rpc.annotation.RpcInject;
 import org.springframework.web.bind.annotation.*;
 
 /**
