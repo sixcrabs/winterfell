@@ -9,7 +9,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.sixcrabs</groupId>
     <artifactId>app-spring-boot-starter</artifactId>
     <version>1.5.0</version>
     <packaging>jar</packaging>

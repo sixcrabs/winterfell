@@ -24,4 +24,30 @@
         <module>keystore-spring-boot-starter</module>
     </modules>
 
+    <name>${project.artifactId}</name>
+    <description>Spring Boot Starters for Winterfell Components</description>
+    <url>https://github.com/sixcrabs/winterfell</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Alex</name>
+            <email>parselife@gmail.com</email>
+            <roles>
+                <role>Project Manager</role>
+                <role>Architect</role>
+            </roles>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git://github.com/sixcrabs/winterfell.git</connection>
+        <developerConnection>scm:git:ssh://github.com/sixcrabs/winterfell.git</developerConnection>
+        <url>https://github.com/sixcrabs/winterfell</url>
+    </scm>
+
 </project>

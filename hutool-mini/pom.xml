@@ -9,7 +9,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.sixcrabs</groupId>
     <artifactId>wf-hutool-mini</artifactId>
     <version>1.2.0</version>
     <packaging>jar</packaging>

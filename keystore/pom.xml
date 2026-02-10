@@ -13,12 +13,40 @@
     <version>1.1.0</version>
     <packaging>jar</packaging>
 
+    <name>${project.artifactId}</name>
+    <description>Simple KeyStore for cache or temporary storage.</description>
+    <url>https://github.com/sixcrabs/winterfell</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Alex</name>
+            <email>parselife@gmail.com</email>
+            <roles>
+                <role>Project Manager</role>
+                <role>Architect</role>
+            </roles>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git://github.com/sixcrabs/winterfell.git</connection>
+        <developerConnection>scm:git:ssh://github.com/sixcrabs/winterfell.git</developerConnection>
+        <url>https://github.com/sixcrabs/winterfell</url>
+    </scm>
+
     <dependencies>
+
         <dependency>
             <groupId>io.github.sixcrabs</groupId>
             <artifactId>wf-ring-timer</artifactId>
             <version>1.1.0</version>
         </dependency>
+
         <dependency>
             <groupId>io.github.sixcrabs</groupId>
             <artifactId>wf-hutool-mini</artifactId>
@@ -59,6 +87,7 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-pool2</artifactId>
+            <version>2.12.0</version>
         </dependency>
         <!--key store end-->
 
@@ -71,17 +100,20 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
         </dependency>
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
+            <version>5.8.2</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
+            <version>1.7.36</version>
             <scope>test</scope>
         </dependency>
 
