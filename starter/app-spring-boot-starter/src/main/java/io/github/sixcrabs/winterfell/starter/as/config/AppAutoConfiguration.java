@@ -25,6 +25,7 @@ import org.springframework.boot.context.ApplicationPidFileWriter;
 import org.springframework.boot.context.event.ApplicationStartedEvent;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.util.StringUtils;
 
 import java.sql.Timestamp;
@@ -44,6 +45,7 @@ import java.time.format.DateTimeFormatter;
 @AutoConfiguration(after = JacksonAutoConfiguration.class)
 @EnableConfigurationProperties({AppCustomProperties.class, JacksonFormatProperties.class, ResponseProperties.class})
 @EnableEncryptableProperties
+@ComponentScan(basePackages = "io.github.sixcrabs")
 public class AppAutoConfiguration {
 
     @Bean
